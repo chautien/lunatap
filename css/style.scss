@@ -1,0 +1,16 @@
+@import "./varriable";
+@import "./font";
+@import "./reset";
+@import "./mixins";
+
+.wrapper {
+  overflow-x: hidden;
+}
+.container {
+  height: 700vh;
+  max-width: 128rem;
+  width: 100%;
+  margin: 0 auto;
+}
+@import "./header";
+@import "./banner";

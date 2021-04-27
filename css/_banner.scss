@@ -1,0 +1,59 @@
+.banner {
+  position: relative;
+  z-index: 999;
+  height: 78rem;
+  padding-top: 5rem;
+  &-heading {
+    position: relative;
+    width: 90rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    z-index: 998;
+    &-title {
+      font-weight: 700;
+      font-size: 4rem;
+      color: $text-heading-color;
+      text-align: center;
+      line-height: 1.6;
+      margin-bottom: 3rem;
+      & span:first-child {
+        display: block;
+      }
+    }
+    &-box {
+      @include flexBox(center, center);
+      gap: 1.4rem;
+    }
+    &-btn {
+      width: 16rem;
+    }
+    &-btn:last-child {
+      width: 18.8rem;
+      transform: translateY(-0.7px);
+    }
+  }
+  &-hero {
+    position: absolute;
+    z-index: 997;
+    bottom: 0;
+    width: 90rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .overimg {
+    position: absolute;
+    z-index: 995;
+    &-left {
+      left: 0;
+      top: 50%;
+      transform: translate(-37%, -50%);
+    }
+    &-right {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(42%, -50%);
+      overflow: hidden;
+    }
+  }
+}
