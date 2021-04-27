@@ -127,6 +127,19 @@ a {
   display: inline-block;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1e266d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(196, 184, 184, 0.377);
+}
+
 .wrapper {
   overflow-x: hidden;
 }
@@ -285,8 +298,8 @@ a {
   position: absolute;
   right: 0;
   top: 50%;
-  -webkit-transform: translate(42%, -50%);
-          transform: translate(42%, -50%);
+  -webkit-transform: translate(44%, -50%);
+          transform: translate(44%, -50%);
   overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,17 @@
 @import "./reset";
 @import "./mixins";
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $text-heading-color;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(196, 184, 184, 0.377);
+}
+
 .wrapper {
   overflow-x: hidden;
 }
